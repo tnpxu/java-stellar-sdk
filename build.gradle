@@ -22,7 +22,7 @@ publishing {
     }
     repositories {
         ivy {
-            url "$projectDir/repos"
+            url "${System.properties['user.home']}/.ivy2/local"
         }
     }
 }
